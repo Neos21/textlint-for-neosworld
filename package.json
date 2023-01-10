@@ -1,0 +1,45 @@
+{
+  "name": "textlint-for-neosworld",
+  "description": "TextLint For Neo's World",
+  "private": true,
+  "scripts": {
+    "copy": "node ./sources/copy-html.js",
+    "textlint": "textlint"
+  },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/textlint-for-neosworld#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/textlint-for-neosworld.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/textlint-for-neosworld/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  },
+  "devDependencies": {
+    "@textlint-ja/textlint-rule-no-insert-dropping-sa": "2.0.1",
+    "@textlint-ja/textlint-rule-no-synonyms": "1.3.0",
+    "@textlint-rule/textlint-rule-no-invalid-control-character": "2.0.0",
+    "sudachi-synonyms-dictionary": "12.0.0",
+    "textlint": "12.5.1",
+    "textlint-plugin-html": "0.3.0",
+    "textlint-rule-ja-hiragana-fukushi": "1.3.0",
+    "textlint-rule-ja-hiragana-hojodoushi": "1.0.4",
+    "textlint-rule-ja-hiragana-keishikimeishi": "1.1.0",
+    "textlint-rule-ja-joyo-or-jinmeiyo-kanji": "1.0.3",
+    "textlint-rule-ja-no-abusage": "3.0.0",
+    "textlint-rule-ja-no-inappropriate-words": "2.0.0",
+    "textlint-rule-ja-no-orthographic-variants": "2.0.0",
+    "textlint-rule-ja-unnatural-alphabet": "2.0.1",
+    "textlint-rule-joyo-kanji": "0.0.2",
+    "textlint-rule-no-dropping-the-ra": "3.0.0",
+    "textlint-rule-no-hoso-kinshi-yogo": "1.3.2",
+    "textlint-rule-no-kangxi-radicals": "0.2.0",
+    "textlint-rule-no-nfd": "1.0.2",
+    "textlint-rule-no-zero-width-spaces": "1.0.1"
+  }
+}
